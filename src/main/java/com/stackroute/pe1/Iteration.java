@@ -1,4 +1,4 @@
-package com.stackroute.javapractice;
+package com.stackroute.pe1;
 
 import java.util.Scanner;
 

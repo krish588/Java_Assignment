@@ -1,8 +1,7 @@
-package com.stackroute.javapractice;
+package com.stackroute.pe1;
 
 import java.util.ArrayList;
 import java.util.*;
-import java.util.Arrays;
 
 public class SortnSum {
     public static void main(String[] args){
