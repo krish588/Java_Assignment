@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.*;
 
 public class SortnSum {
-    public static void main(String[] args){
+    public ArrayList<Integer> sortNSum(int input_number){
         ArrayList<Integer> digits = new ArrayList<Integer>();
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number");
-        int input_number = sc.nextInt();
+//        System.out.println("Enter the number");
+//        int input_number = sc.nextInt();
         int sum=0;
 
         for (int i = 0; input_number > 0; i++) {
@@ -22,14 +22,17 @@ public class SortnSum {
         }
         Collections.sort(digits);
         Collections.reverse(digits);
-        System.out.println(digits);
-        System.out.println(sum);
+
+//        System.out.println(digits);
+//        System.out.println(sum);
+
         if (sum > 15) {
             System.out.println("True");
         } else {
             System.out.println("False");
         }
 
+        return digits;
     }
 
 }

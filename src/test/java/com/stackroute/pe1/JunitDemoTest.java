@@ -12,7 +12,7 @@ public class JunitDemoTest {
         System.out.println("Inside Before");
         this.junitDemo = new JunitDemo();
     }
-
+//freeup all the alloctated memory for every test
     @After
     public void tearDown() {
         System.out.println("Inside After");
