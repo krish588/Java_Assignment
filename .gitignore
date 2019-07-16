@@ -74,3 +74,4 @@ fabric.properties
 /.idea/description.html
 /.idea/encodings.xml
 /.idea
+*.iml
