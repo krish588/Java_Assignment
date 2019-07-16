@@ -9,7 +9,7 @@ public class PalindromeTest {
     Palindrome palindrome;
 
     @Before
-    public void Setup() {
+    public void setup() {
         this.palindrome = new Palindrome();
     }
 

@@ -9,12 +9,15 @@ public class GuessTargetTest {
     GuessTarget guessTarget;
 
     @Before
-    public void Setup() {
+    public void setup() {
         this.guessTarget = new GuessTarget();
     }
 
     @Test
     public void findTheNUmberGeneratedRandom() {
+        if()
+        //act
+        String result = guessTarget.targetGusser();
 
     }
 }
